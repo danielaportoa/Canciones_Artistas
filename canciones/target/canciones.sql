@@ -1,0 +1,8 @@
+USE canciones_db;
+SET FOREIGN_KEY_CHECKS = 0;
+TRUNCATE TABLE canciones;
+TRUNCATE TABLE artistas;
+SET FOREIGN_KEY_CHECKS = 1;
+
+USE canciones_db;
+SHOW TABLES;

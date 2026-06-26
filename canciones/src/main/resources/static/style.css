@@ -1,0 +1,202 @@
+/* Estilo General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+.contenedor, .contenedor-tarjeta {
+    max-width: 800px;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+.contenedor-tarjeta {
+    max-width: 600px;
+}
+
+/* Botones  */
+.contenedor-acciones {
+    margin-top: 25px; 
+    display: flex; 
+    gap: 12px;
+    align-items: center;
+}
+
+/* Textos */
+h1 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 12px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 12px 0;
+}
+
+p strong {
+    color: #2c3e50;
+    min-width: 100px;
+    display: inline-block;
+}
+
+/* Tablas */
+table, .tabla-musica {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #eef2f5;
+    text-align: left;
+}
+
+th {
+    background-color: #34495e; /* Color oscuro profesional */
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    letter-spacing: 0.5px;
+}
+
+tr {
+    transition: background-color 0.2s ease;
+}
+
+tr:hover {
+    background-color: #f8fafc;
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 0.95em;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.btn-detalle {
+    background-color: #3498db;
+    color: #ffffff !important;
+}
+
+.btn-detalle:hover {
+    background-color: #2980b9;
+}
+
+.btn-agregar {
+    background-color: #2ecc71;
+    color: #ffffff !important;
+}
+
+.btn-agregar:hover {
+    background-color: #27ae60;
+}
+
+/* Variación: Editar / Naranja */
+.btn-editar {
+    background-color: #f39c12;
+    color: #ffffff !important;
+}
+
+.btn-editar:hover {
+    background-color: #d35400;
+}
+
+.btn-volver {
+    background-color: #95a5a6;
+    color: #ffffff !important;
+}
+
+.btn-volver:hover {
+    background-color: #7f8c8d;
+}
+
+a {
+    transition: color 0.2s ease;
+}
+
+.btn-eliminar {
+    background-color: #e74c3c;
+    color: #ffffff !important;
+}
+
+.btn-eliminar:hover {
+    background-color: #c0392b;
+}
+/* Formularios */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+}
+
+.error-msg, .alerta-error {
+    color: #e74c3c;
+    font-size: 0.85em;
+    font-weight: bold;
+    display: block;
+    margin-top: 6px;
+}
+
+.alerta-error {
+    background-color: #fde8e7;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 5px solid #e74c3c;
+    font-size: 1em;
+}
+
+.info-fecha {
+    font-size: 0.85em;
+    color: #7f8c8d;
+    margin-top: 25px;
+    border-top: 1px solid #eef2f5;
+    padding-top: 15px;
+}
